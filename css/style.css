@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: bisque;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.top-menu {
+  justify-content: center;
+  gap: 30px;
+}
+
+.top-menu-item a {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.beauty {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.beauty-left {
+  align-items: center;
+  margin-left: 100px;
+}
+
+.beauty-right {
+  align-items: center;
+  margin-left: 100px;
+}
+
+.beauty-name {
+  color: var(--Accent, #66c05d);
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3.6px;
+}
+
+.beauty-btn {
+  flex-shrink: 0;
+  border-radius: 40px;
+  border: 2px solid var(--Accent, #66c05d);
+  background: #fff;
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 10px 20px;
+}
+
+.phone-number {
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 20px;
+}
+
+.beauty {
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+  background: white;
+}
+
+.top-menu-2 {
+  margin-bottom: 30px;
+}
+
+.main {
+  background: url(../images/main-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 190px;
+  padding-left: 100px;
+  padding-bottom: 190px;
+  margin-bottom: 80px;
+}
+
+.main-title {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+
+.main-text {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  width: 308px;
+  margin-bottom: 60px;
+}
+
+.cards {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.cards-title {
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+
+.card {
+  padding: 25px 30px;
+  text-align: center;
+}
+
+.card-img {
+  margin-bottom: 20px;
+}
+
+.card-text {
+  color: #333;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.card-price {
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+
+.card-btn .btn {
+  width: 130px;
+  height: 35px;
+  flex-shrink: 0;
+  border-radius: 30px;
+}
+
+.footer {
+  padding-left: 150px;
+  padding-right: 150px;
+  min-height: 300px;
+  
+  margin-bottom: 100px;
+}
+
+.footer-content {
+  min-height: 100px;
+  background-color: bisque;
+}
+/* 
+.footer-content-left {
+  padding: 40px;
+} */
+
+.footer-left {
+  justify-content: space-between;
+  align-items: center;
+  background-color: blueviolet;
+  padding: 40px;
+  margin-bottom: 10px;
+}
+
+.left-content-title {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.left-content-text {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.625%; /* 19.688px */
+  margin-bottom: 20px;
+  max-width: 200px;
+}
+
+.last-right {
+  justify-content: center;
+  align-items: center;
+}
+
+.last-right .btn {
+  margin-left: 30px;
+  background-color: chocolate;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.last-right .btn:hover {
+  background-color: green;
+  color: gold;
+  border: 2px solid red;
+}
+
+.last-left {
+  justify-content: center;
+  align-items: center;
+}
+
+.last-left i {
+  margin-right: 20px;
+  font-size: 30px;
+}
+
+.last-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgb(226, 195, 195);
+  margin-bottom: 50px;
+}
+
+
